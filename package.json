@@ -1,0 +1,35 @@
+{
+  "name": "react-optimistic-component",
+  "version": "1.0.0",
+  "description": "Example to make react component optimistic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otakustay/react-optimistic-component.git"
+  },
+  "author": "otakustay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otakustay/react-optimistic-component/issues"
+  },
+  "homepage": "https://github.com/otakustay/react-optimistic-component#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-react-require": "^3.0.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^2.28.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0"
+  }
+}
