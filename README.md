@@ -20,3 +20,7 @@
 3. 当需要将一个事务内的积极UI效果移除时，调用`this.rollbackOptimistic(transactionId)`方法，将事务ID作为参数传过去。
 
 具体代码请看[App.js](src/App.js)中的`submitNewItem`方法的实现。
+
+## 与Redux结合
+
+我们已经开发了[redux-optimistic-manager](https://github.com/ecomfe/redux-optimistic-manager)作为Redux的基础功能，配套有[redux-optimistic-thunk](https://github.com/ecomfe/redux-optimistic-thunk)作为支持，进一步有[redux-managed-thunk](https://github.com/ecomfe/redux-managed-thunk)（开发中）提供更完善的功能。
