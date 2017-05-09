@@ -1,5 +1,12 @@
 # react-optimistic-component
 
+启动演示：
+
+```
+yarn install
+npm start
+```
+
 展示在react组件中集成积极UI（Optimistic UI）的效果。
 
 我们的目标是：
